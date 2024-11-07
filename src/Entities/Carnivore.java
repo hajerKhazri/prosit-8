@@ -1,4 +1,5 @@
 package Entities;
 
-public interface Carnivore {
+public interface Carnivore<T> {
+    void eatMeat(T meat);
 }
