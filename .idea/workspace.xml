@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5d211-3091-4669-97b6-039ff17c9ec4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/AffectationHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Departement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/DepartementHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/DepartementHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/IDepartement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/IDepartement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/GestionEmploye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/GestionEmploye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SocieteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SocieteArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Entities/Departement.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -36,31 +45,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SocieteArrayList$Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.zooManagement.executor&quot;: &quot;Debug&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AffectationHashMap.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SocieteArrayList$Main.executor": "Run",
+    "Application.zooManagement.executor": "Debug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AffectationHashMap">
+    <configuration name="AffectationHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AffectationHashMap" />
+      <module name="td1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entities.Main" />
       <module name="td1" />
@@ -89,10 +112,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AffectationHashMap" />
       <item itemvalue="Application.SocieteArrayList$Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AffectationHashMap" />
         <item itemvalue="Application.SocieteArrayList$Main" />
       </list>
     </recent_temporary>

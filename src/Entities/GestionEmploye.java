@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class GestionEmploye implements IGestion<Employe> {
-    private List<Employe> employes;
+public class GestionEmploye implements IGestion<employe> {
+    private List<employe> employes;
 
     // Constructeur
     public GestionEmploye() {
@@ -14,13 +14,13 @@ public class GestionEmploye implements IGestion<Employe> {
     }
 
     @Override
-    public void ajouterEmploye(Employe employe) {
+    public void ajouterEmploye(employe employe) {
         employes.add(employe);
     }
 
     @Override
     public boolean rechercherEmploye(String nom) {
-        for (Employe employe : employes) {
+        for (Entities.employe employe : employes) {
             if (employe.getNom().equalsIgnoreCase(nom)) {
                 return true;
             }
@@ -29,32 +29,32 @@ public class GestionEmploye implements IGestion<Employe> {
     }
 
     @Override
-    public boolean rechercherEmploye(Employe employe) {
+    public boolean rechercherEmploye(employe employe) {
         return employes.contains(employe);
     }
 
     @Override
-    public void supprimerEmploye(Employe employe) {
+    public void supprimerEmploye(employe employe) {
         employes.remove(employe);
     }
 
     @Override
     public void displayEmploye() {
-        for (Employe employe : employes) {
+        for (Entities.employe employe : employes) {
             System.out.println(employe);
         }
     }
 
     @Override
     public void trierEmployeParId() {
-        Collections.sort(employes, Comparator.comparingInt(Employe::getId));
+        Collections.sort(employes, Comparator.comparingInt(employe::getId));
     }
 
     @Override
     public void trierEmployeParNomDepartementEtGrade() {
-        Collections.sort(employes, new Comparator<Employe>() {
+        Collections.sort(employes, new Comparator<employe>() {
             @Override
-            public int compare(Employe e1, Employe e2) {
+            public int compare(employe e1, employe e2) {
                 int result = e1.getNom().compareTo(e2.getNom());
                 if (result == 0) {
                     result = e1.getNomDepartement().compareTo(e2.getNomDepartement());

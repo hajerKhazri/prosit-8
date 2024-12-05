@@ -5,6 +5,13 @@ import java.util.Objects;
 public class Departement {
 
 
+    public Departement(String rh) {
+    }
+
+    public <departement> departement getNom() {
+        return null;
+    }
+
     public class Departement {
 
         private int id;

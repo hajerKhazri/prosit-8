@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class DepartementHashSet<T> implements IDepartement<T> {
-            private final Set<Departement> departements;
+            private final Set<departement> departements;
 
 
             public DepartementHashSet() {
@@ -12,23 +12,38 @@ public class DepartementHashSet<T> implements IDepartement<T> {
             }
 
 
-            public void addDepartement(Departement departement) {
+            public void addDepartement(departement departement) {
                 departements.add(departement);
             }
 
 
-            public boolean removeDepartement(Departement departement) {
+            public boolean removeDepartement(departement departement) {
                 return departements.remove(departement);
             }
 
 
-            public boolean containsDepartement(Departement departement) {
+            public boolean containsDepartement(departement departement) {
                 return departements.contains(departement);
             }
 
 
-            public void printAllDepartements() {
-                for (Departement departement : departements) {
+    @Override
+    public void addDepartement(T departement) {
+        
+    }
+
+    @Override
+    public boolean removeDepartement(T departement) {
+        return false;
+    }
+
+    @Override
+    public boolean containsDepartement(T departement) {
+        return false;
+    }
+
+    public void printAllDepartements() {
+                for (Entities.departement departement : departements) {
                     System.out.println(departement);
                 }
             }

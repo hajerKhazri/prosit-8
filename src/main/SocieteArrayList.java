@@ -1,6 +1,6 @@
 package main;
 
-import Entities.Employe;
+import Entities.employe;
 import Entities.GestionEmploye;
 
 public class SocieteArrayList {
@@ -10,9 +10,9 @@ public class SocieteArrayList {
             GestionEmploye gestion = new GestionEmploye();
 
 
-            gestion.ajouterEmploye(new Employe(1, "Ben Ali", "Ahmed", "Informatique", 3));
-            gestion.ajouterEmploye(new Employe(2, "Salah", "Nizar", "Marketing", 2));
-            gestion.ajouterEmploye(new Employe(3, "Ben Ali", "Mohamed", "Informatique", 1));
+            gestion.ajouterEmploye(new employe(1, "Ben Ali", "Ahmed", "Informatique", 3));
+            gestion.ajouterEmploye(new employe(2, "Salah", "Nizar", "Marketing", 2));
+            gestion.ajouterEmploye(new employe(3, "Ben Ali", "Mohamed", "Informatique", 1));
 
 
             System.out.println("Avant tri :");
@@ -33,7 +33,7 @@ public class SocieteArrayList {
             System.out.println("\nExistence d'un employé avec le nom 'Ben Ali' : " + existe);
 
 
-            gestion.supprimerEmploye(new Employe(1, "Ben Ali", "Ahmed", "Informatique", 3));
+            gestion.supprimerEmploye(new employe(1, "Ben Ali", "Ahmed", "Informatique", 3));
             System.out.println("\nAprès suppression :");
             gestion.displayEmploye();
         }
